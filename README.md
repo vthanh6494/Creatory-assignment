@@ -34,11 +34,11 @@ This is where you login. Use the password and username "admin" and you will be a
 
 **Response**
 
-;;;
+```json
 {
-  authenticated: true
+  "authenticated": true
 }
-;;;
+```
 
 #### GET /data
 
@@ -53,7 +53,7 @@ This endpoint will provide you with the neccesary data.
 
 **Response**
 
-;;;
+```json
 [
   {
     "id":5,
@@ -88,7 +88,7 @@ This endpoint will provide you with the neccesary data.
     ]
   }
 ]
-;;;
+```
 
 ## How to run
 
