@@ -45,6 +45,7 @@ This is where you login. Use the password and username "admin" and you will be a
 This endpoint will provide you with the neccesary data.
 
 **Parameters**
+
 | Name | Required | Type | Description |
 | ----------- | ----------- |----------- |----------- |
 | limit | Optional | Integer | Number of results to return |
