@@ -24,10 +24,13 @@ There are two endpoints available:
 This is where you login. Use the password and username "admin" and you will be authenticated.
 
 **Parameters**
-| Name | Required | Type |  
-| --- | --- | --- |
-| username | Required | String |
+
+
+| Name | Required| Type |
+| ---      |  ------  |----------|
+| username   | Required   | String   |
 | password | Required | String |
+
 
 **Response**
 
