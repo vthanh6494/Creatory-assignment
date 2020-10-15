@@ -8,10 +8,12 @@ The goal of this app is to create a simple login screen. After authenticating wi
 
 1. Create a login screen, handle wrong username/password combination
 2. Preserve login state
-3. After successfull login, redirect to main application
-4. Display the data in such a way that is performant and beautiful
+3. After successfull login (with /auth endpoint), redirect to main application
+4. Display the data (from /data endpoint) in such a way that is performant and beautiful
 5. Implement sorting (ascending, descending) on the columns you see useful
 6. Implement text filtering/searching on the columns you deem important
+7. Please use your favorite framework(s) and components
+8. Do not eject
 
 ## Endpoints
 
@@ -23,7 +25,7 @@ This is where you login. Use the password and username "admin" and you will be a
 
 **Parameters**
 | Name | Required | Type |  
-| ----------- | ----------- |-----------
+| --- | --- | --- |
 | username | Required | String |
 | password | Required | String |
 
@@ -117,7 +119,7 @@ npm server
 ## Judgement criteria
 
 1. How is state being handled
-2. Usage of components (reusability, performance)
+2. Usage of components (reusability, performance, readability)
 3. Project structure and code organization
 4. Overall performance and use of industry best practice
 5. Aesthetics of the final product
