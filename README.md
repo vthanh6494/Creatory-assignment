@@ -4,16 +4,16 @@ Welcome to the Creatory frontend assignment. We tried to keep this assignment as
 
 The goal of this app is to create a simple login screen. After authenticating with the backend we will display a table of data (main application).
 
+We expect you to spend no more than a few hours on this. In case you cannot finish everything within this timeframe please share your best effort.
+
 ## Requirements
 
 1. Create a login screen, handle wrong username/password combination
 2. Preserve login state
 3. After successfull login (with /auth endpoint), redirect to main application
 4. Display the data (from /data endpoint) in such a way that is performant and beautiful
-5. Implement sorting (ascending, descending) on the columns you see useful
-6. Implement text filtering/searching on the columns you deem important
-7. Please use your favorite framework(s) and components
-8. Do not eject
+5. Please use your favorite framework(s) and components
+6. Do not eject
 
 ## Endpoints
 
